@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 148.395 s <<< FAILURE! - in TestSuite
+testcases.Register_TC.register_TC[anil, logistics, ak-25-03-2021-07-27-10@gmail.com, 123456, 123456](1)  Time elapsed: 36.311 s  <<< FAILURE!
+java.lang.AssertionError: Verify User Home Page expected [true] but found [false]
+	at testcases.Register_TC.register_TC(Register_TC.java:46)
+
+testcases.ValidLogin_TC.validLogin_TC[ak-22-03-2021-06-26-06@gmail.com, 123456](1)  Time elapsed: 35.537 s  <<< FAILURE!
+java.lang.AssertionError: Verify User Home Page expected [true] but found [false]
+	at testcases.ValidLogin_TC.validLogin_TC(ValidLogin_TC.java:37)
+
